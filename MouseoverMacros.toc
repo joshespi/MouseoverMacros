@@ -1,6 +1,6 @@
 ## Interface: 120007
 ## Title: MouseoverMacros
-## Notes: Syncs mouseover cast macros from a per-class spell list. /mm help
+## Notes: Syncs mouseover cast macros from a per-class spell list. /momacro help
 ## Version: 0.1.0
 ## SavedVariables: MouseoverMacrosDB
 

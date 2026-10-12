@@ -13,11 +13,11 @@ Each spell gets a character macro named `MO <spell>`:
 
 | Command | Does |
 | --- | --- |
-| `/mm add Spell, Spell` | Cast on a friendly mouseover target, otherwise your current target |
-| `/mm harm Spell, Spell` | Cast on a hostile mouseover target, otherwise your current target |
-| `/mm del Spell, Spell` | Remove spells from the list and delete their macros |
-| `/mm list` | Show this class's list |
-| `/mm sync` | Force a sync |
+| `/momacro add Spell, Spell` | Cast on a friendly mouseover target, otherwise your current target |
+| `/momacro harm Spell, Spell` | Cast on a hostile mouseover target, otherwise your current target |
+| `/momacro del Spell, Spell` | Remove spells from the list and delete their macros |
+| `/momacro list` | Show this class's list |
+| `/momacro sync` | Force a sync |
 
 Shift-click a spell in the spellbook to insert it.
 
