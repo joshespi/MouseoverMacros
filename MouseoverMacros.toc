@@ -3,5 +3,6 @@
 ## Notes: Syncs mouseover cast macros from a per-class spell list. /momacro help
 ## Version: @project-version@
 ## SavedVariables: MouseoverMacrosDB
+## X-Curse-Project-ID: 1763810
 
 MouseoverMacros.lua
