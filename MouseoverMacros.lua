@@ -49,7 +49,7 @@ end
 -- Character macro index for name, 0 if none, nil if an account macro holds the name.
 local function macroIndex(name)
 	local idx = GetMacroIndexByName(name)
-	if idx > 0 and idx <= (MAX_ACCOUNT_MACROS or 120) then
+	if idx > 0 and idx <= Constants.MacroConsts.MAX_ACCOUNT_MACROS then
 		return nil
 	end
 	return idx
@@ -64,7 +64,7 @@ local function sync()
 
 	local made, updated = 0, 0
 	local _, numChar = GetNumMacros()
-	local maxChar = MAX_CHARACTER_MACROS or 18
+	local maxChar = Constants.MacroConsts.MAX_CHARACTER_MACROS
 	for _, e in ipairs(spells) do
 		local name, body = macroName(e.name), macroBody(e.name, e.kind)
 		local idx = macroIndex(name)
