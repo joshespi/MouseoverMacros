@@ -1,7 +1,7 @@
 ## Interface: 120105
 ## Title: MouseoverMacros
 ## Notes: Syncs mouseover cast macros from a per-class spell list. /momacro help
-## Version: 0.1.0
+## Version: @project-version@
 ## SavedVariables: MouseoverMacrosDB
 
 MouseoverMacros.lua
